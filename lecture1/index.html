@@ -5,15 +5,32 @@
 	</head>
 	
 	<style type="text/css">
-	h1 {
-		color: #FFFFFF;
-		font-family: sans-serif;
+	body {
+		background:#eee;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	h2, h3 {
+		font-size:22px;
+		font-weight:300;
+		color:#aaa;
 	}
 	
+	.button {
+	background: #333;
+			width:100px;
+			color:#fff;
+			height:20px;
+		     -moz-border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    -khtml-border-radius: 20px;
+		    border-radius: 20px;
+		    text-align:center;
+			}
+
 	</style>
 	
 	<body>
-	 		<h2>Rio Akasaka</h2>
+		<h2>Rio Akasaka</h2>
 		<div id='bio'>Crime-solver. Noir detective extraordinaire.</div>
 	 
 	 	<h3>Assignments</h3>
@@ -23,12 +40,17 @@
 		</ul>
 	
 		<h3>A nice button</h3>
+		<p  class="button"> Click me </p>
 
 		<h3>An invisible seal</h3>
-
+		<p><img width="50" class="opacity" src="seal.png" /></p>
 		<h3>A video</h3>
-
+				
+		<video width="300" height="240" controls="controls">
+		  <source src="gizmo.mp4" type="video/mp4" />
+		</video>
 		<h3>Two boxes side by side</h3>
+
 
 	</body>
 </html>
