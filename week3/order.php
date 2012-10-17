@@ -20,8 +20,7 @@
 		
 		<div class="orderarea">
 		<!-- This is where we'll put our form -->
-		
-		
+
 		</div>
 			
 
