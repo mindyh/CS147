@@ -15,17 +15,16 @@
 	</head>
 
 	<body>
-	<?php
-	echo "test";
-	?>
-	
+
+
 		<div class="banner"></div>
 			<?php
 				include("menu.php");
 			?>
 		<div class="orderarea">
 		<!-- This is where we'll put our form -->
-
+		
+		
 		</div>
 			
 
